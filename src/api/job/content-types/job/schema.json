@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "job"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "aboutYou": {
+      "type": "json"
+    },
+    "responsibilities": {
+      "type": "json"
+    },
+    "keySkills": {
+      "type": "json"
+    }
+  }
+}
